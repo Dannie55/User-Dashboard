@@ -3,6 +3,12 @@ export const countryCodes = [
   { code: "+1", label: "USA/Canada (+1)" },
   { code: "+44", label: "UK (+44)" },
   { code: "+91", label: "India (+91)" },
+  { code: "+63", label: "Philippines (+63)" },
+  { code: "+64", label: "New Zealand (+64)" },
+  { code: "+52", label: "Mexico (+52)" },
+  { code: "+65", label: "Singapore (+65)" },
+  { code: "+41", label: "Switzerland (+41)" },
+  { code: "+46", label: "Sweden (+46)" },
   { code: "+61", label: "Australia (+61)" },
   { code: "+81", label: "Japan (+81)" },
   { code: "+49", label: "Germany (+49)" },
@@ -15,11 +21,5 @@ export const countryCodes = [
   { code: "+27", label: "South Africa (+27)" },
   { code: "+82", label: "South Korea (+82)" },
   { code: "+60", label: "Malaysia (+60)" },
-  { code: "+63", label: "Philippines (+63)" },
-  { code: "+64", label: "New Zealand (+64)" },
-  { code: "+52", label: "Mexico (+52)" },
-  { code: "+65", label: "Singapore (+65)" },
-  { code: "+41", label: "Switzerland (+41)" },
-  { code: "+46", label: "Sweden (+46)" },
-  // Add more codes as needed
+
 ];
