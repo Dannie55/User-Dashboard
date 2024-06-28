@@ -4,14 +4,14 @@ import { Authenticate, Button, InputWithLabel } from '..';
 
 const Login = ({LoginSchema}) => {
 	const navigate = useNavigate();
-	/* Handle Error for Login */
+
 
 	return (
 		<>
 		<div>
 			<Authenticate />
 			<div>
-				<p className="text-black/40">or login with email</p>
+				<p className="text-black/40"> or login with email</p>
 				<Formik
 					initialValues={{ email: '', password: '', newsLetter: false,}}
 					validationSchema={LoginSchema}
@@ -21,10 +21,20 @@ const Login = ({LoginSchema}) => {
 					}}
 				>
 					{() => (
-						<Form className="pb-20">
-							<InputWithLabel label="Email address" type="email" name="email" autocomplete="new-password" />
-							<InputWithLabel label="Password" type="password" name="password" autocomplete="new-password" />
-							<Button name="Login to Dashboard" />
+						<Form className="pb-20" >
+							<InputWithLabel 
+							label="Email address"
+							 type="email" 
+							 name="email" 
+							  />
+							<InputWithLabel 
+							label="Password" 
+							type="password" 
+							name="password" 
+							
+							/>
+							<Button name="Login to Dashboard"
+							autocomplete="on" />
 							<div className="pt-4">
 								<Field name="newsLetter" type="checkbox" />
 								<label htmlFor="newsLetter" className="pl-3">Remember me</label>
