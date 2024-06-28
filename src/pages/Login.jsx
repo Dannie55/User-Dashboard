@@ -26,11 +26,13 @@ const Login = ({LoginSchema}) => {
 							label="Email address"
 							 type="email" 
 							 name="email" 
+							 autocomplete="off"
 							  />
 							<InputWithLabel 
 							label="Password" 
 							type="password" 
-							name="password" 
+							name="password"
+							autocomplete="off" 
 							
 							/>
 							<Button name="Login to Dashboard"

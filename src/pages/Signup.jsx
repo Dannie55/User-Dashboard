@@ -21,8 +21,18 @@ const Signup = ({ setStep, SignupSchema }) => {
 				>
 					{({isSubmitting}) => (
 						<Form>
-							<InputWithLabel label="Email address" type="email" name="email" autocomplete="on" />
-							<InputWithLabel label="Password" type="password" name="password" autocomplete="on"/>
+							<InputWithLabel 
+							label="Email address" 
+							type="email"
+							 name="email" 
+							 autocomplete="on" 
+							 />
+							<InputWithLabel 
+							label="Password" 
+							type="password" 
+							name="password" 
+							autocomplete="on"
+							/>
 							<Button name={isSubmitting ? 'Create account...' : 'Create account'} />
 							<div className="pt-4">
 								<Field name="newsLetter" type="checkbox" />
